@@ -20,7 +20,8 @@ syn keyword tshtFunction
     \ exec_ok exec_fail
     \ pass fail
     \ file_exists file_not_empty
-    \ like
+    \ match not_match
+    \ ok not_ok
 
 hi! link tshtFunction Type
 
