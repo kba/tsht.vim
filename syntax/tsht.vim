@@ -18,8 +18,9 @@ syn keyword tshtFunction
     \ plan
     \ equals not_equals
     \ exec_ok exec_fail
-    \ ok fail
+    \ pass fail
     \ file_exists file_not_empty
+    \ like
 
 hi! link tshtFunction Type
 
