@@ -17,3 +17,4 @@ function! Tsht(...)
 endfun
 command! -nargs=* Tsht :call Tsht(<f-args>)
 nmap <buffer> \ll :call Tsht(expand("%:p"))<cr>
+setlocal commentstring=#%s
