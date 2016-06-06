@@ -15,13 +15,14 @@ runtime! syntax/sh.vim
 runtime! syntax/sh/*.vim
 
 syn keyword tshtFunction
-    \ plan
+    \ plan use
     \ equals not_equals
     \ exec_ok exec_fail
     \ pass fail
     \ file_exists file_not_empty
     \ match not_match
     \ ok not_ok
+    \ jq_ok jq_equals
 
 hi! link tshtFunction Type
 
