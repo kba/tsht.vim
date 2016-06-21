@@ -31,6 +31,8 @@ syn keyword tshtFunction
 syn keyword tshtExtension
     \ jq
     \ colordiff
+    \ diff
+    \ shxml
 
 syn match tshtUseStmt /^use.*/ contains=tshtExtension,tshtFunction
 
