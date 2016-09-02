@@ -15,7 +15,7 @@ let b:is_bash=1
 runtime! syntax/sh.vim
 runtime! syntax/sh/*.vim
 
-syn keyword tshtFunction
+syn keyword tshtFunction containedin=shDo
     \ plan use
     \ equals not_equals
     \ exec_ok exec_fail
